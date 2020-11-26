@@ -6,7 +6,7 @@ const app = express()
 app.use(morgan('dev'));
 
 app.use((req, res) => {
-    res.send(`Let's do this shit!`)
+    res.send(`Let's do it all day!`)
 })
 
 const PORT = 8000
